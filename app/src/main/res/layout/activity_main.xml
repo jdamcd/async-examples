@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  android:padding="@dimen/padding"
+  android:animateLayoutChanges="true">
+
+  <TextView
+    android:id="@+id/textview_updates"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ddd"
+    android:padding="@dimen/padding"
+    android:layout_margin="@dimen/small_padding"
+    android:visibility="gone" />
+
+  <Button
+    android:id="@+id/button_anr"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_anr" />
+
+  <Button
+    android:id="@+id/button_thread"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_thread" />
+
+  <Button
+    android:id="@+id/button_async_task"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_async_task" />
+
+  <Button
+    android:id="@+id/button_loader"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_loader" />
+
+  <Button
+    android:id="@+id/button_intent_service"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_intent_service" />
+
+  <Button
+    android:id="@+id/button_rx"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/button_rx" />
+
+</LinearLayout>

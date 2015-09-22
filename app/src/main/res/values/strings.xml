@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Async Examples</string>
+
+    <string name="button_anr">ANR</string>
+    <string name="button_thread">Thread</string>
+    <string name="button_async_task">AsyncTask</string>
+    <string name="button_loader">Loader</string>
+    <string name="button_intent_service">IntentService</string>
+    <string name="button_rx">RxJava</string>
+</resources>
